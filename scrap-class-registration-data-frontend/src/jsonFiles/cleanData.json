@@ -1,0 +1,314 @@
+[
+  {
+    "title": "005",
+    "start": "3:00 PM",
+    "end": "4:15 PM",
+    "days": [
+      false,
+      true,
+      false,
+      true,
+      false
+    ],
+    "hours": 2.5
+  },
+  {
+    "title": "015",
+    "start": "4:30 PM",
+    "end": "5:45 PM",
+    "days": [
+      true,
+      false,
+      true,
+      false,
+      false
+    ],
+    "hours": 2.5
+  },
+  {
+    "title": "019",
+    "start": "09:00 AM",
+    "end": "10:15 AM",
+    "days": [
+      true,
+      false,
+      true,
+      false,
+      false
+    ],
+    "hours": 2.5
+  },
+  {
+    "title": "019",
+    "start": "4:30 PM",
+    "end": "5:45 PM",
+    "days": [
+      false,
+      true,
+      false,
+      true,
+      false
+    ],
+    "hours": 2.5
+  },
+  {
+    "title": "022",
+    "start": "09:00 AM",
+    "end": "10:15 AM",
+    "days": [
+      true,
+      false,
+      true,
+      false,
+      false
+    ],
+    "hours": 2.5
+  },
+  {
+    "title": "022",
+    "start": "4:30 PM",
+    "end": "5:45 PM",
+    "days": [
+      true,
+      false,
+      true,
+      false,
+      false
+    ],
+    "hours": 2.5
+  },
+  {
+    "title": "024",
+    "start": "1:30 PM",
+    "end": "2:45 PM",
+    "days": [
+      true,
+      false,
+      true,
+      false,
+      false
+    ],
+    "hours": 2.5
+  },
+  {
+    "title": "030",
+    "start": "12:00 PM",
+    "end": "1:15 PM",
+    "days": [
+      true,
+      false,
+      true,
+      false,
+      false
+    ],
+    "hours": 2.5
+  },
+  {
+    "title": "031",
+    "start": "1:30 PM",
+    "end": "2:45 PM",
+    "days": [
+      true,
+      false,
+      true,
+      false,
+      false
+    ],
+    "hours": 2.5
+  },
+  {
+    "title": "100",
+    "start": "1:30 PM",
+    "end": "2:45 PM",
+    "days": [
+      false,
+      true,
+      false,
+      true,
+      false
+    ],
+    "hours": 2.5
+  },
+  {
+    "title": "106",
+    "start": "5:00 PM",
+    "end": "7:20 PM",
+    "days": [
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    "hours": 2.33
+  },
+  {
+    "title": "107",
+    "start": "1:30 PM",
+    "end": "2:45 PM",
+    "days": [
+      true,
+      false,
+      true,
+      false,
+      false
+    ],
+    "hours": 2.5
+  },
+  {
+    "title": "111",
+    "start": "10:30 AM",
+    "end": "11:45 AM",
+    "days": [
+      false,
+      true,
+      false,
+      true,
+      false
+    ],
+    "hours": 2.5
+  },
+  {
+    "title": "120",
+    "start": "3:00 PM",
+    "end": "4:15 PM",
+    "days": [
+      true,
+      false,
+      true,
+      false,
+      false
+    ],
+    "hours": 2.5
+  },
+  {
+    "title": "150",
+    "start": "3:00 PM",
+    "end": "4:15 PM",
+    "days": [
+      true,
+      false,
+      true,
+      false,
+      false
+    ],
+    "hours": 2.5
+  },
+  {
+    "title": "160",
+    "start": "3:00 PM",
+    "end": "4:15 PM",
+    "days": [
+      false,
+      true,
+      false,
+      true,
+      false
+    ],
+    "hours": 2.5
+  },
+  {
+    "title": "162",
+    "start": "09:00 AM",
+    "end": "10:15 AM",
+    "days": [
+      false,
+      true,
+      false,
+      true,
+      false
+    ],
+    "hours": 2.5
+  },
+  {
+    "title": "165",
+    "start": "3:00 PM",
+    "end": "4:15 PM",
+    "days": [
+      true,
+      false,
+      true,
+      false,
+      false
+    ],
+    "hours": 2.5
+  },
+  {
+    "title": "168",
+    "start": "3:00 PM",
+    "end": "4:15 PM",
+    "days": [
+      false,
+      true,
+      false,
+      true,
+      false
+    ],
+    "hours": 2.5
+  },
+  {
+    "title": "171",
+    "start": "12:30 PM",
+    "end": "1:20 PM",
+    "days": [
+      true,
+      false,
+      true,
+      false,
+      true
+    ],
+    "hours": 2.5
+  },
+  {
+    "title": "175",
+    "start": "6:00 PM",
+    "end": "8:45 PM",
+    "days": [
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    "hours": 2.75
+  },
+  {
+    "title": "176",
+    "start": "4:30 PM",
+    "end": "5:45 PM",
+    "days": [
+      false,
+      true,
+      false,
+      true,
+      false
+    ],
+    "hours": 2.5
+  },
+  {
+    "title": "180",
+    "start": "4:30 PM",
+    "end": "5:45 PM",
+    "days": [
+      true,
+      false,
+      true,
+      false,
+      false
+    ],
+    "hours": 2.5
+  },
+  {
+    "title": "185",
+    "start": "1:30 PM",
+    "end": "2:45 PM",
+    "days": [
+      true,
+      false,
+      true,
+      false,
+      false
+    ],
+    "hours": 2.5
+  }
+]
