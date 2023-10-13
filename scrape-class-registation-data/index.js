@@ -226,6 +226,56 @@ app.get("/convertData", (req, res) => {
   });
 });
 
+// function generateTimeSlots(start, end) {
+//   // Convert the time strings to Date objects to work with time calculations
+//   const startTime = new Date(`1/1/2023 ${start}`);
+//   const endTime = new Date(`1/1/2023 ${end}`);
+
+//   const timeSlotMinutes = 15;
+//   const timeSlots = [];
+
+//   // Loop to generate time slots
+//   while (startTime <= endTime) {
+//     timeSlots.push(
+//       startTime.toLocaleTimeString("en-US", {
+//         hour: "2-digit",
+//         minute: "2-digit",
+//       })
+//     );
+//     startTime.setMinutes(startTime.getMinutes() + timeSlotMinutes);
+//   }
+
+//   // console.log(timeSlots);
+
+//   return timeSlots;
+// }
+function generateTimeSlots(start, end) {
+  // Convert the time strings to Date objects to work with time calculations
+  const startTime = new Date(`1/1/2023 ${start}`);
+  const endTime = new Date(`1/1/2023 ${end}`);
+
+  const timeSlotMinutes = 15;
+  const timeSlots = [];
+
+  // Loop to generate time slots
+  while (startTime <= endTime) {
+    const hour = startTime.getHours();
+    const minute = startTime.getMinutes();
+    const amOrPm = hour < 12 ? "AM" : "PM";
+
+    // Format the time slot based on the hour part
+    const timeSlot =
+      hour % 12 === 0
+        ? `12:${minute === 0 ? "00" : minute} ${amOrPm}`
+        : `${hour % 12}:${minute === 0 ? "00" : minute} ${amOrPm}`;
+
+    timeSlots.push(timeSlot);
+    startTime.setMinutes(startTime.getMinutes() + timeSlotMinutes);
+  }
+
+  return timeSlots;
+}
+
 app.get("/compileData", (req, res) => {
   const daysOfWeek = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"];
   const filePath = path.join(__dirname, "cleanData.json");
@@ -258,7 +308,8 @@ app.get("/compileData", (req, res) => {
                 let parts = jsonData[i].end.split(":");
                 let partsTwo = parts[1].split(" ");
                 let mins = partsTwo[0];
-                console.log(mins);
+                // console.log(mins);
+                let timeSlots;
                 if (mins === "20") {
                   let newJsonDatEnd;
                   if (partsTwo[1] === "PM") {
@@ -267,11 +318,37 @@ app.get("/compileData", (req, res) => {
                     newJsonDatEnd = parts[0] + ":30 AM";
                   }
 
-                  jsonDataFinal[daysOfWeek[j]][jsonData[i].start] += 1;
-                  jsonDataFinal[daysOfWeek[j]][newJsonDatEnd] += 1;
+                  console.log("---------------------");
+                  console.log(daysOfWeek[j], ":");
+                  console.log(jsonData[i].start);
+                  console.log("- - - - - - - - - - -");
+                  timeSlots = generateTimeSlots(
+                    jsonData[i].start,
+                    newJsonDatEnd
+                  );
+                  for (k = 0; k < timeSlots.length; k++) {
+                    jsonDataFinal[daysOfWeek[j]][timeSlots[k]] += 1;
+                  }
+                  console.log(timeSlots);
+                  console.log("- - - - - - - - - - -");
+                  console.log(newJsonDatEnd);
+                  console.log("---------------------");
                 } else {
-                  jsonDataFinal[daysOfWeek[j]][jsonData[i].start] += 1;
-                  jsonDataFinal[daysOfWeek[j]][jsonData[i].end] += 1;
+                  console.log("---------------------");
+                  console.log(daysOfWeek[j], ":");
+                  console.log(jsonData[i].start);
+                  console.log("- - - - - - - - - - -");
+                  timeSlots = generateTimeSlots(
+                    jsonData[i].start,
+                    jsonData[i].end
+                  );
+                  for (k = 0; k < timeSlots.length; k++) {
+                    jsonDataFinal[daysOfWeek[j]][timeSlots[k]] += 1;
+                  }
+                  console.log(timeSlots);
+                  console.log("- - - - - - - - - - -");
+                  console.log(jsonData[i].end);
+                  console.log("---------------------");
                 }
               }
             }
