@@ -327,7 +327,13 @@ app.get("/compileData", (req, res) => {
                     newJsonDatEnd
                   );
                   for (k = 0; k < timeSlots.length; k++) {
-                    jsonDataFinal[daysOfWeek[j]][timeSlots[k]] += 1;
+                    // jsonDataFinal[daysOfWeek[j]][timeSlots[k]] += parseFloat(
+                    //   (1 / 5).toFixed(2)
+                    // );
+                    jsonDataFinal[daysOfWeek[j]][timeSlots[k]] += 1 / 5;
+                    jsonDataFinal[daysOfWeek[j]][timeSlots[k]] = parseFloat(
+                      jsonDataFinal[daysOfWeek[j]][timeSlots[k]].toFixed(2)
+                    );
                   }
                   console.log(timeSlots);
                   console.log("- - - - - - - - - - -");
@@ -343,7 +349,13 @@ app.get("/compileData", (req, res) => {
                     jsonData[i].end
                   );
                   for (k = 0; k < timeSlots.length; k++) {
-                    jsonDataFinal[daysOfWeek[j]][timeSlots[k]] += 1;
+                    // jsonDataFinal[daysOfWeek[j]][timeSlots[k]] += parseFloat(
+                    //   (1 / 5).toFixed(2)
+                    // );
+                    jsonDataFinal[daysOfWeek[j]][timeSlots[k]] += 1 / 5;
+                    jsonDataFinal[daysOfWeek[j]][timeSlots[k]] = parseFloat(
+                      jsonDataFinal[daysOfWeek[j]][timeSlots[k]].toFixed(2)
+                    );
                   }
                   console.log(timeSlots);
                   console.log("- - - - - - - - - - -");
@@ -353,8 +365,19 @@ app.get("/compileData", (req, res) => {
               }
             }
           }
+          // fs.writeFile(
+          //   "./finalData.json",
+          //   JSON.stringify(jsonDataFinal, null, 2),
+          //   (writeErr) => {
+          //     if (writeErr) {
+          //       console.error("Error writing to JSON file:", writeErr);
+          //     } else {
+          //       console.log("Data has been written to finalData.json");
+          //     }
+          //   }
+          // );
           fs.writeFile(
-            "./finalData.json",
+            "../scrap-class-registration-data-frontend/src/jsonFiles/finalData.json",
             JSON.stringify(jsonDataFinal, null, 2),
             (writeErr) => {
               if (writeErr) {
