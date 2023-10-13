@@ -1,0 +1,1822 @@
+[
+  {
+    "Sunday": [
+      {
+        "time": "6:00 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "6:15 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "6:30 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "6:45 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "7:00 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "7:15 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "7:30 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "7:45 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "8:00 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "8:15 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "8:30 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "8:45 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "9:00 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "9:15 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "9:30 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "9:45 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "10:00 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "10:15 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "10:30 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "10:45 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "11:00 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "11:15 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "11:30 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "11:45 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "12:00 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "12:15 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "12:30 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "12:45 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "13:00 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "13:15 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "13:30 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "13:45 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "14:00 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "14:15 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "14:30 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "14:45 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "15:00 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "15:15 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "15:30 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "15:45 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "16:00 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "16:15 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "16:30 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "16:45 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "17:00 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "17:15 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "17:30 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "17:45 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "18:00 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "18:15 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "18:30 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "18:45 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "19:00 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "19:15 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "19:30 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "19:45 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "20:00 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "20:15 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "20:30 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "20:45 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "21:00 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "21:15 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "21:30 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "21:45 PM",
+        "heatScore": 0
+      }
+    ]
+  },
+  {
+    "Monday": [
+      {
+        "time": "6:00 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "6:15 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "6:30 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "6:45 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "7:00 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "7:15 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "7:30 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "7:45 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "8:00 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "8:15 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "8:30 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "8:45 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "9:00 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "9:15 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "9:30 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "9:45 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "10:00 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "10:15 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "10:30 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "10:45 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "11:00 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "11:15 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "11:30 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "11:45 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "12:00 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "12:15 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "12:30 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "12:45 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "13:00 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "13:15 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "13:30 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "13:45 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "14:00 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "14:15 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "14:30 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "14:45 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "15:00 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "15:15 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "15:30 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "15:45 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "16:00 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "16:15 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "16:30 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "16:45 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "17:00 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "17:15 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "17:30 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "17:45 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "18:00 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "18:15 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "18:30 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "18:45 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "19:00 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "19:15 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "19:30 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "19:45 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "20:00 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "20:15 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "20:30 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "20:45 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "21:00 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "21:15 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "21:30 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "21:45 PM",
+        "heatScore": 0
+      }
+    ]
+  },
+  {
+    "Tuesday": [
+      {
+        "time": "6:00 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "6:15 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "6:30 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "6:45 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "7:00 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "7:15 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "7:30 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "7:45 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "8:00 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "8:15 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "8:30 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "8:45 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "9:00 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "9:15 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "9:30 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "9:45 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "10:00 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "10:15 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "10:30 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "10:45 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "11:00 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "11:15 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "11:30 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "11:45 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "12:00 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "12:15 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "12:30 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "12:45 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "13:00 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "13:15 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "13:30 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "13:45 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "14:00 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "14:15 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "14:30 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "14:45 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "15:00 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "15:15 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "15:30 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "15:45 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "16:00 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "16:15 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "16:30 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "16:45 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "17:00 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "17:15 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "17:30 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "17:45 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "18:00 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "18:15 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "18:30 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "18:45 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "19:00 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "19:15 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "19:30 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "19:45 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "20:00 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "20:15 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "20:30 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "20:45 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "21:00 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "21:15 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "21:30 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "21:45 PM",
+        "heatScore": 0
+      }
+    ]
+  },
+  {
+    "Wednesday": [
+      {
+        "time": "6:00 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "6:15 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "6:30 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "6:45 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "7:00 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "7:15 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "7:30 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "7:45 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "8:00 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "8:15 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "8:30 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "8:45 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "9:00 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "9:15 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "9:30 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "9:45 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "10:00 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "10:15 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "10:30 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "10:45 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "11:00 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "11:15 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "11:30 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "11:45 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "12:00 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "12:15 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "12:30 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "12:45 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "13:00 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "13:15 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "13:30 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "13:45 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "14:00 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "14:15 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "14:30 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "14:45 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "15:00 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "15:15 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "15:30 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "15:45 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "16:00 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "16:15 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "16:30 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "16:45 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "17:00 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "17:15 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "17:30 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "17:45 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "18:00 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "18:15 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "18:30 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "18:45 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "19:00 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "19:15 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "19:30 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "19:45 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "20:00 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "20:15 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "20:30 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "20:45 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "21:00 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "21:15 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "21:30 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "21:45 PM",
+        "heatScore": 0
+      }
+    ]
+  },
+  {
+    "Thursday": [
+      {
+        "time": "6:00 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "6:15 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "6:30 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "6:45 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "7:00 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "7:15 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "7:30 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "7:45 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "8:00 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "8:15 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "8:30 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "8:45 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "9:00 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "9:15 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "9:30 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "9:45 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "10:00 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "10:15 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "10:30 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "10:45 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "11:00 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "11:15 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "11:30 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "11:45 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "12:00 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "12:15 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "12:30 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "12:45 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "13:00 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "13:15 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "13:30 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "13:45 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "14:00 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "14:15 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "14:30 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "14:45 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "15:00 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "15:15 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "15:30 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "15:45 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "16:00 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "16:15 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "16:30 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "16:45 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "17:00 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "17:15 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "17:30 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "17:45 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "18:00 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "18:15 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "18:30 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "18:45 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "19:00 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "19:15 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "19:30 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "19:45 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "20:00 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "20:15 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "20:30 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "20:45 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "21:00 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "21:15 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "21:30 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "21:45 PM",
+        "heatScore": 0
+      }
+    ]
+  },
+  {
+    "Friday": [
+      {
+        "time": "6:00 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "6:15 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "6:30 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "6:45 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "7:00 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "7:15 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "7:30 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "7:45 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "8:00 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "8:15 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "8:30 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "8:45 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "9:00 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "9:15 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "9:30 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "9:45 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "10:00 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "10:15 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "10:30 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "10:45 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "11:00 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "11:15 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "11:30 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "11:45 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "12:00 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "12:15 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "12:30 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "12:45 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "13:00 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "13:15 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "13:30 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "13:45 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "14:00 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "14:15 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "14:30 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "14:45 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "15:00 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "15:15 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "15:30 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "15:45 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "16:00 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "16:15 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "16:30 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "16:45 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "17:00 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "17:15 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "17:30 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "17:45 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "18:00 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "18:15 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "18:30 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "18:45 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "19:00 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "19:15 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "19:30 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "19:45 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "20:00 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "20:15 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "20:30 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "20:45 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "21:00 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "21:15 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "21:30 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "21:45 PM",
+        "heatScore": 0
+      }
+    ]
+  },
+  {
+    "Saturday": [
+      {
+        "time": "6:00 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "6:15 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "6:30 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "6:45 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "7:00 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "7:15 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "7:30 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "7:45 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "8:00 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "8:15 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "8:30 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "8:45 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "9:00 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "9:15 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "9:30 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "9:45 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "10:00 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "10:15 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "10:30 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "10:45 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "11:00 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "11:15 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "11:30 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "11:45 AM",
+        "heatScore": 0
+      },
+      {
+        "time": "12:00 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "12:15 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "12:30 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "12:45 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "13:00 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "13:15 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "13:30 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "13:45 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "14:00 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "14:15 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "14:30 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "14:45 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "15:00 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "15:15 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "15:30 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "15:45 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "16:00 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "16:15 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "16:30 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "16:45 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "17:00 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "17:15 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "17:30 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "17:45 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "18:00 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "18:15 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "18:30 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "18:45 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "19:00 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "19:15 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "19:30 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "19:45 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "20:00 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "20:15 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "20:30 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "20:45 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "21:00 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "21:15 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "21:30 PM",
+        "heatScore": 0
+      },
+      {
+        "time": "21:45 PM",
+        "heatScore": 0
+      }
+    ]
+  }
+]

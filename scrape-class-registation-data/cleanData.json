@@ -27,7 +27,7 @@
   },
   {
     "title": "019",
-    "start": "09:00 AM",
+    "start": "9:00 AM",
     "end": "10:15 AM",
     "days": [
       true,
@@ -53,7 +53,7 @@
   },
   {
     "title": "022",
-    "start": "09:00 AM",
+    "start": "9:00 AM",
     "end": "10:15 AM",
     "days": [
       true,
@@ -209,7 +209,7 @@
   },
   {
     "title": "162",
-    "start": "09:00 AM",
+    "start": "9:00 AM",
     "end": "10:15 AM",
     "days": [
       false,

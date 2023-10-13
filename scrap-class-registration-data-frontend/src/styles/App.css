@@ -1,0 +1,73 @@
+.App {
+  padding: 0px;
+  margin: 0px;
+}
+
+.outerDivStyle {
+  background-color: #1c1826;
+  border: 3px solid #000;
+  box-sizing: border-box;
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+.innerDivStyle {
+  padding: 25px;
+  width: 100%;
+}
+.centeredDivStyle {
+  background: #393050;
+  width: 100%;
+  height: 100%;
+  overflow: scroll;
+}
+.table {
+  color: #d146ca;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+.thead {
+  position: sticky;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: #635387;
+  height: 25px;
+  display: flex;
+}
+tr {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  align-items: center;
+}
+th {
+  color: rgb(209, 70, 202);
+  width: 100%;
+}
+td {
+  color: #1d6b60;
+  width: 100%;
+}
+/* td,
+th {
+  font-size: 20px;
+  font-weight: 700;
+  width: 100%;
+  text-align: center;
+} */
+.showTime {
+  font-size: 15px;
+  font-weight: 700;
+  text-align: center;
+  width: 100%;
+  height: 20px;
+}
+.hideTime {
+  font-size: 15px;
+  font-weight: 700;
+  text-align: center;
+  width: 100%;
+  height: 20px;
+}

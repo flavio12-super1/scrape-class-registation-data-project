@@ -39,6 +39,17 @@ function convertTimeStamp(timestamp) {
   return clockTime;
 }
 
+function cleanTime(timeString) {
+  let string = "";
+  let cleanHour = 0;
+  const parts = timeString.split(":");
+  const hour = parts[0];
+  cleanHour = parseInt(hour) + 0;
+  string = `${cleanHour}:${parts[1]}`;
+  console.log(string);
+  return string;
+}
+
 function courseData(object, num) {
   let startTime = "";
   let endTime = "";
@@ -52,8 +63,8 @@ function courseData(object, num) {
   // console.log(endTime);
   return {
     title: object.courseNumber,
-    start: startTime,
-    end: endTime,
+    start: cleanTime(startTime),
+    end: cleanTime(endTime),
     days: [
       object.meetingsFaculty[num].meetingTime.monday,
       object.meetingsFaculty[num].meetingTime.tuesday,
@@ -98,10 +109,21 @@ app.get("/data", (req, res) => {
             heatMapData.push(dataObject);
           }
         });
-        console.log(heatMapData);
+        // console.log(heatMapData);
         // Write the "data" array to a JSON file in the same directory
+        // fs.writeFile(
+        //   "../scrap-class-registration-data-frontend/src/jsonFiles/cleanData.json",
+        //   JSON.stringify(heatMapData, null, 2),
+        //   (writeErr) => {
+        //     if (writeErr) {
+        //       console.error("Error writing to JSON file:", writeErr);
+        //     } else {
+        //       console.log("Data has been written to output.json");
+        //     }
+        //   }
+        // );
         fs.writeFile(
-          "../scrap-class-registration-data-frontend/src/jsonFiles/cleanData.json",
+          "./cleanData.json",
           JSON.stringify(heatMapData, null, 2),
           (writeErr) => {
             if (writeErr) {
@@ -117,6 +139,161 @@ app.get("/data", (req, res) => {
       } else {
         res.status(500).json({ error: 'The "data" property is not an array' });
       }
+    } catch (parseError) {
+      res.status(500).json({ error: "Error parsing JSON data" });
+    }
+  });
+});
+
+app.get("/convertData", (req, res) => {
+  const filePath = path.join(__dirname, "cleanData.json");
+
+  // Read the JSON file
+  fs.readFile(filePath, "utf8", (err, data) => {
+    if (err) {
+      res.status(500).json({ error: "Error reading the JSON file" });
+      return;
+    }
+
+    try {
+      const jsonData = JSON.parse(data);
+
+      let heatMapData = {
+        Monday: {},
+        Tuesday: {},
+        Wednesday: {},
+        Thursday: {},
+        Friday: {},
+      };
+
+      const startHour = 6;
+      const endHour = 22;
+      const timeSlotMinutes = 15;
+
+      function convertTime(hour) {
+        let clockTime;
+
+        if (hour > 12) {
+          clockTime = hour - 12;
+          if (clockTime < 10) {
+            clockTime = clockTime;
+          }
+        } else if (hour == 12) {
+          clockTime = hour;
+        } else if (hour >= 10 && hour < 12) {
+          clockTime = hour;
+        } else if (hour < 10) {
+          clockTime = hour;
+        }
+
+        return clockTime;
+      }
+
+      // Iterate through each day of the week
+      for (let day in heatMapData) {
+        for (let hour = startHour; hour < endHour; hour++) {
+          for (let minute = 0; minute < 60; minute += timeSlotMinutes) {
+            const time = `${convertTime(hour)}:${
+              minute === 0 ? "00" : minute
+            } ${hour < 12 ? "AM" : "PM"}`;
+
+            // Add the time as a key with a heat score of 0
+            heatMapData[day][time] = 0;
+          }
+        }
+      }
+
+      console.log(heatMapData);
+
+      // Write the "heatMapData" object to a JSON file in the same directory
+      fs.writeFile(
+        "./finalData.json",
+        JSON.stringify(heatMapData, null, 2),
+        (writeErr) => {
+          if (writeErr) {
+            console.error("Error writing to JSON file:", writeErr);
+          } else {
+            console.log("Data has been written to finalData.json");
+          }
+        }
+      );
+
+      // Send the entire "heatMapData" object as a response
+      res.json({ message: "success" });
+    } catch (parseError) {
+      res.status(500).json({ error: "Error parsing JSON data" });
+    }
+  });
+});
+
+app.get("/compileData", (req, res) => {
+  const daysOfWeek = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"];
+  const filePath = path.join(__dirname, "cleanData.json");
+
+  // Read the JSON file
+  fs.readFile(filePath, "utf8", (err, data) => {
+    if (err) {
+      res.status(500).json({ error: "Error reading the JSON file" });
+      return;
+    }
+
+    try {
+      const jsonData = JSON.parse(data);
+      const filePath = path.join(__dirname, "finalData.json");
+
+      // Read the JSON file
+      fs.readFile(filePath, "utf8", (err, data) => {
+        if (err) {
+          res.status(500).json({ error: "Error reading the JSON file" });
+          return;
+        }
+
+        try {
+          let jsonDataFinal = JSON.parse(data);
+          // console.log(jsonDataFinal);
+          console.log(jsonData.length);
+          for (i = 0; i < jsonData.length; i++) {
+            for (j = 0; j < 5; j++) {
+              if (jsonData[i].days[j] === true) {
+                let parts = jsonData[i].end.split(":");
+                let partsTwo = parts[1].split(" ");
+                let mins = partsTwo[0];
+                console.log(mins);
+                if (mins === "20") {
+                  let newJsonDatEnd;
+                  if (partsTwo[1] === "PM") {
+                    newJsonDatEnd = parts[0] + ":30 PM";
+                  } else {
+                    newJsonDatEnd = parts[0] + ":30 AM";
+                  }
+
+                  jsonDataFinal[daysOfWeek[j]][jsonData[i].start] += 1;
+                  jsonDataFinal[daysOfWeek[j]][newJsonDatEnd] += 1;
+                } else {
+                  jsonDataFinal[daysOfWeek[j]][jsonData[i].start] += 1;
+                  jsonDataFinal[daysOfWeek[j]][jsonData[i].end] += 1;
+                }
+              }
+            }
+          }
+          fs.writeFile(
+            "./finalData.json",
+            JSON.stringify(jsonDataFinal, null, 2),
+            (writeErr) => {
+              if (writeErr) {
+                console.error("Error writing to JSON file:", writeErr);
+              } else {
+                console.log("Data has been written to finalData.json");
+              }
+            }
+          );
+          // Send the entire "data" array as a response
+        } catch (parseError) {
+          res.status(500).json({ error: "Error parsing JSON data" });
+        }
+      });
+      // Send the entire "data" array as a response
+      res.json({ message: "success" });
     } catch (parseError) {
       res.status(500).json({ error: "Error parsing JSON data" });
     }
