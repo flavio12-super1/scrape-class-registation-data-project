@@ -71,3 +71,22 @@ th {
   width: 100%;
   height: 20px;
 }
+
+.heatScore0 {
+  background-color: #000000;
+}
+.heatScore2 {
+  background-color: #cb7171;
+}
+.heatScore4 {
+  background-color: #cf5657;
+}
+.heatScore6 {
+  background-color: #cd383a;
+}
+.heatScore8 {
+  background-color: #b11f22;
+}
+.heatScore1 {
+  background-color: #57070a;
+}

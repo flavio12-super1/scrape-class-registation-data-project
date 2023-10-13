@@ -365,19 +365,8 @@ app.get("/compileData", (req, res) => {
               }
             }
           }
-          // fs.writeFile(
-          //   "./finalData.json",
-          //   JSON.stringify(jsonDataFinal, null, 2),
-          //   (writeErr) => {
-          //     if (writeErr) {
-          //       console.error("Error writing to JSON file:", writeErr);
-          //     } else {
-          //       console.log("Data has been written to finalData.json");
-          //     }
-          //   }
-          // );
           fs.writeFile(
-            "../scrap-class-registration-data-frontend/src/jsonFiles/finalData.json",
+            "./finalData.json",
             JSON.stringify(jsonDataFinal, null, 2),
             (writeErr) => {
               if (writeErr) {
@@ -387,6 +376,17 @@ app.get("/compileData", (req, res) => {
               }
             }
           );
+          // fs.writeFile(
+          //   "../scrap-class-registration-data-frontend/src/jsonFiles/finalData.json",
+          //   JSON.stringify(jsonDataFinal, null, 2),
+          //   (writeErr) => {
+          //     if (writeErr) {
+          //       console.error("Error writing to JSON file:", writeErr);
+          //     } else {
+          //       console.log("Data has been written to finalData.json");
+          //     }
+          //   }
+          // );
           // Send the entire "data" array as a response
         } catch (parseError) {
           res.status(500).json({ error: "Error parsing JSON data" });

@@ -1,7 +1,18 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./styles/App.css";
+import jsonData from "./jsonFiles/finalData.json";
+
+// Define an interface to describe the structure of your JSON data
+interface HeatMapData {
+  [day: string]: {
+    [time: string]: number;
+  };
+}
 
 function generateCalendar() {
+  // const [jsonData, setJsonData] = useState(null);
+  const heatMap: HeatMapData = jsonData;
+
   const daysOfWeek = [
     "Sunday",
     "Monday",
@@ -16,6 +27,22 @@ function generateCalendar() {
   const timeSlotMinutes = 15;
 
   const calendar = [];
+
+  function getHeatScore(day: string, time: string) {
+    if (day === "Sunday" || day === "Saturday") {
+      return <td key={`${day}-${time}`}>----</td>;
+    } else {
+      const str = heatMap[day][time].toString();
+      const lastChar = str.charAt(str.length - 1);
+      const getClassName = "heatScore" + lastChar;
+      return (
+        <td key={`${day}-${time}`} className={getClassName}>
+          --{heatMap[day][time]}--
+        </td>
+      );
+    }
+    // return heatMap[day][time];
+  }
 
   function convertTime(hour: number) {
     let clockTime;
@@ -49,12 +76,20 @@ function generateCalendar() {
         className = "hideTime";
       }
 
+      // console.log(jsonData[day][actualTime]);
       const row = (
         <tr key={time} className={className}>
           <td>{time}</td>
-          {daysOfWeek.map((day) => (
-            <td key={`${day}-${time}`}>----</td>
-          ))}
+          {daysOfWeek.map((day) =>
+            // <td key={`${day}-${time}`}>--{jsonData[day][actualTime]}--</td>
+            // <td key={`${day}-${time}`}>
+            //   --{day}:{actualTime}--
+            // </td>
+
+            // <td key={`${day}-${time}`}>--{heatMap[day]["6:00 AM"]}--</td>
+            // <td key={`${day}-${time}`}>--{getHeatScore(day, actualTime)}--</td>
+            getHeatScore(day, actualTime)
+          )}
         </tr>
       );
 
@@ -85,6 +120,7 @@ function App() {
             </thead>
             <tbody>{generateCalendar()}</tbody>
           </table>
+          {/* <pre>{JSON.stringify(jsonData, null, 2)}</pre> */}
         </div>
       </div>
     </div>
