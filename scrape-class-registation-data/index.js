@@ -109,19 +109,6 @@ app.get("/data", (req, res) => {
             heatMapData.push(dataObject);
           }
         });
-        // console.log(heatMapData);
-        // Write the "data" array to a JSON file in the same directory
-        // fs.writeFile(
-        //   "../scrap-class-registration-data-frontend/src/jsonFiles/cleanData.json",
-        //   JSON.stringify(heatMapData, null, 2),
-        //   (writeErr) => {
-        //     if (writeErr) {
-        //       console.error("Error writing to JSON file:", writeErr);
-        //     } else {
-        //       console.log("Data has been written to output.json");
-        //     }
-        //   }
-        // );
         fs.writeFile(
           "./cleanData.json",
           JSON.stringify(heatMapData, null, 2),
@@ -226,29 +213,6 @@ app.get("/convertData", (req, res) => {
   });
 });
 
-// function generateTimeSlots(start, end) {
-//   // Convert the time strings to Date objects to work with time calculations
-//   const startTime = new Date(`1/1/2023 ${start}`);
-//   const endTime = new Date(`1/1/2023 ${end}`);
-
-//   const timeSlotMinutes = 15;
-//   const timeSlots = [];
-
-//   // Loop to generate time slots
-//   while (startTime <= endTime) {
-//     timeSlots.push(
-//       startTime.toLocaleTimeString("en-US", {
-//         hour: "2-digit",
-//         minute: "2-digit",
-//       })
-//     );
-//     startTime.setMinutes(startTime.getMinutes() + timeSlotMinutes);
-//   }
-
-//   // console.log(timeSlots);
-
-//   return timeSlots;
-// }
 function generateTimeSlots(start, end) {
   // Convert the time strings to Date objects to work with time calculations
   const startTime = new Date(`1/1/2023 ${start}`);
@@ -279,6 +243,9 @@ function generateTimeSlots(start, end) {
 app.get("/compileData", (req, res) => {
   const daysOfWeek = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"];
   const filePath = path.join(__dirname, "cleanData.json");
+  // const jsonFilePath = "./finalData.json";
+  const jsonFilePath =
+    "../scrap-class-registration-data-frontend/src/jsonFiles/finalData.json";
 
   // Read the JSON file
   fs.readFile(filePath, "utf8", (err, data) => {
@@ -308,7 +275,6 @@ app.get("/compileData", (req, res) => {
                 let parts = jsonData[i].end.split(":");
                 let partsTwo = parts[1].split(" ");
                 let mins = partsTwo[0];
-                // console.log(mins);
                 let timeSlots;
                 if (mins === "20") {
                   let newJsonDatEnd;
@@ -327,9 +293,6 @@ app.get("/compileData", (req, res) => {
                     newJsonDatEnd
                   );
                   for (k = 0; k < timeSlots.length; k++) {
-                    // jsonDataFinal[daysOfWeek[j]][timeSlots[k]] += parseFloat(
-                    //   (1 / 5).toFixed(2)
-                    // );
                     jsonDataFinal[daysOfWeek[j]][timeSlots[k]] += 1 / 5;
                     jsonDataFinal[daysOfWeek[j]][timeSlots[k]] = parseFloat(
                       jsonDataFinal[daysOfWeek[j]][timeSlots[k]].toFixed(2)
@@ -349,9 +312,6 @@ app.get("/compileData", (req, res) => {
                     jsonData[i].end
                   );
                   for (k = 0; k < timeSlots.length; k++) {
-                    // jsonDataFinal[daysOfWeek[j]][timeSlots[k]] += parseFloat(
-                    //   (1 / 5).toFixed(2)
-                    // );
                     jsonDataFinal[daysOfWeek[j]][timeSlots[k]] += 1 / 5;
                     jsonDataFinal[daysOfWeek[j]][timeSlots[k]] = parseFloat(
                       jsonDataFinal[daysOfWeek[j]][timeSlots[k]].toFixed(2)
@@ -366,7 +326,7 @@ app.get("/compileData", (req, res) => {
             }
           }
           fs.writeFile(
-            "./finalData.json",
+            jsonFilePath,
             JSON.stringify(jsonDataFinal, null, 2),
             (writeErr) => {
               if (writeErr) {
@@ -376,17 +336,7 @@ app.get("/compileData", (req, res) => {
               }
             }
           );
-          // fs.writeFile(
-          //   "../scrap-class-registration-data-frontend/src/jsonFiles/finalData.json",
-          //   JSON.stringify(jsonDataFinal, null, 2),
-          //   (writeErr) => {
-          //     if (writeErr) {
-          //       console.error("Error writing to JSON file:", writeErr);
-          //     } else {
-          //       console.log("Data has been written to finalData.json");
-          //     }
-          //   }
-          // );
+
           // Send the entire "data" array as a response
         } catch (parseError) {
           res.status(500).json({ error: "Error parsing JSON data" });

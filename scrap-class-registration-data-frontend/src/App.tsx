@@ -10,7 +10,6 @@ interface HeatMapData {
 }
 
 function generateCalendar() {
-  // const [jsonData, setJsonData] = useState(null);
   const heatMap: HeatMapData = jsonData;
 
   const daysOfWeek = [
@@ -41,7 +40,6 @@ function generateCalendar() {
         </td>
       );
     }
-    // return heatMap[day][time];
   }
 
   function convertTime(hour: number) {
@@ -76,20 +74,10 @@ function generateCalendar() {
         className = "hideTime";
       }
 
-      // console.log(jsonData[day][actualTime]);
       const row = (
         <tr key={time} className={className}>
           <td>{time}</td>
-          {daysOfWeek.map((day) =>
-            // <td key={`${day}-${time}`}>--{jsonData[day][actualTime]}--</td>
-            // <td key={`${day}-${time}`}>
-            //   --{day}:{actualTime}--
-            // </td>
-
-            // <td key={`${day}-${time}`}>--{heatMap[day]["6:00 AM"]}--</td>
-            // <td key={`${day}-${time}`}>--{getHeatScore(day, actualTime)}--</td>
-            getHeatScore(day, actualTime)
-          )}
+          {daysOfWeek.map((day) => getHeatScore(day, actualTime))}
         </tr>
       );
 
@@ -120,7 +108,6 @@ function App() {
             </thead>
             <tbody>{generateCalendar()}</tbody>
           </table>
-          {/* <pre>{JSON.stringify(jsonData, null, 2)}</pre> */}
         </div>
       </div>
     </div>
